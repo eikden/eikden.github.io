@@ -33,7 +33,7 @@ Your presentation must satisfy the following
 ## URLs
 Source code for ui.R and server.R files are available on the GitHub:https://github.com/eikden/eikden.github.io
 
-Presentation Slide is available at: http://eikden.github.io
+Presentation Slide is available at: http://rpubs.com/eikden/shinyapplication
 
 The app developed for the first part of the assignment is available at: https://eikden.shinyapps.io/MTCARS_Interaction_Demo/
 

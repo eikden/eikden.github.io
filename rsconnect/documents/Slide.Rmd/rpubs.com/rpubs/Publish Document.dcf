@@ -1,0 +1,7 @@
+name: Publish Document
+account: rpubs
+server: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/247080/f36ab31d14134eb4a5614204906a6e53
+bundleId: https://api.rpubs.com/api/v1/document/247080/f36ab31d14134eb4a5614204906a6e53
+url: http://rpubs.com/eikden/247080
+when: 1486219719.6145
