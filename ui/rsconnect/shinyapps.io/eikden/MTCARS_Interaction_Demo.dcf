@@ -1,0 +1,9 @@
+name: MTCARS_Interaction_Demo
+account: eikden
+server: shinyapps.io
+appId: 154912
+bundleId: 700638
+url: https://eikden.shinyapps.io/MTCARS_Interaction_Demo/
+when: 1486217364.20919
+asMultiple: FALSE
+asStatic: FALSE
