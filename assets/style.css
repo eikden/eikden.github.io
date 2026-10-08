@@ -137,7 +137,7 @@ main { overflow-x: clip; }
   transform: translateZ(80px); animation: float 6s ease-in-out infinite;
 }
 .ch-a { top: 12%; left: -18%; }
-.ch-b { top: 46%; right: -12%; animation-delay: -2s !important; }
+.ch-b { top: 46%; right: -4%; animation-delay: -2s !important; }
 .ch-c { bottom: 18%; left: -14%; animation-delay: -4s !important; }
 @keyframes float { 50% { translate: 0 -10px; } }
 .portrait .orbit { position: absolute; inset: -9%; border-radius: 50%; border: 1px dashed rgba(11, 92, 255, .35); pointer-events: none; animation: spin 40s linear infinite; }
