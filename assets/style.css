@@ -175,8 +175,8 @@ h1 { margin: 0; font-family: var(--display); line-height: .95; letter-spacing: -
 .btn.ghost:hover { border-color: var(--blue); color: var(--blue); transform: translateY(-2px); }
 
 .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 56px; max-width: 900px; }
-.stat { padding: 18px 18px 16px; background: rgba(255,255,255,.75); border: 1px solid var(--line); border-radius: var(--radius); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
-.stat b { display: block; font-family: var(--display); font-size: clamp(26px, 3vw, 36px); color: var(--blue); line-height: 1.1; }
+.stat { padding: 14px 18px; border-radius: 12px; border: 1px solid var(--line); background: linear-gradient(135deg, rgba(11,92,255,.08), rgba(25,211,255,.06)), rgba(255,255,255,.85); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
+.stat b { display: block; font-family: var(--mono); font-size: clamp(24px, 2.6vw, 32px); color: var(--blue); line-height: 1.2; }
 .stat span { font-size: 13px; color: var(--ink-2); }
 .scroll-hint { position: absolute; bottom: 22px; left: 50%; transform: translateX(-50%); font-size: 11px; color: var(--ink-3); display: flex; flex-direction: column; align-items: center; gap: 8px; }
 .scroll-hint i { width: 1px; height: 36px; background: linear-gradient(var(--blue), transparent); animation: drop 1.8s infinite; }
