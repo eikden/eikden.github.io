@@ -273,7 +273,7 @@ function initTagSphere() {
   const el = document.getElementById("tagsphere");
   if (!el) return;
   const groups = [
-    ["#0b5cff", ["Python", "XGBoost", "LightGBM", "TensorFlow", "Keras", "OpenCV", "Azure ML", "Azure AI Foundry", "Vertex AI", "LangChain", "RAG", "Agentic AI", "Doc Intelligence", "Computer Vision"]],
+    ["#0b5cff", ["Python", "XGBoost", "LightGBM", "TensorFlow", "Keras", "OpenCV", "Azure ML", "Azure AI Foundry", "Vertex AI", "LangChain", "RAG", "Agentic AI", "Doc Intelligence", "Computer Vision", "GitHub Copilot", "M365 Copilot", "Gemini", "Agent Skills"]],
     ["#00a8ff", ["Microsoft Fabric", "Power BI", "SQL", "BigQuery", "SAP BW", "SSIS", "SSAS", "Power Query"]],
     ["#0a2a6b", ["Azure", "Google Cloud", "Docker", "APIs", "Git", "Azure DevOps", "CI/CD", "C#", ".NET"]],
     ["#5b6cff", ["Power Automate", "RPA", "SAP ECC", "SAP IBP", "Enterprise Search", "OCR"]],
