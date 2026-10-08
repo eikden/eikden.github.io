@@ -230,6 +230,10 @@ h1 { margin: 0; font-family: var(--display); line-height: .95; letter-spacing: -
 .tl-card h3 { font-family: var(--display); font-size: clamp(20px, 2.2vw, 24px); margin: 8px 0 2px; }
 .org { margin: 0 0 12px; font-weight: 600; color: var(--blue); }
 .org small { color: var(--ink-3); font-weight: 500; }
+.tl-kpis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 4px 0 16px; }
+.tl-kpis > div { padding: 10px 14px; border-radius: 12px; background: linear-gradient(135deg, rgba(11,92,255,.08), rgba(25,211,255,.06)); border: 1px solid var(--line); }
+.tl-kpis b { display: block; font-size: clamp(18px, 2vw, 22px); color: var(--blue); line-height: 1.2; letter-spacing: 0; }
+.tl-kpis span { font-size: 12.5px; color: var(--ink-2); }
 .tl-card ul { margin: 0; padding-left: 18px; color: var(--ink-2); font-size: 15px; display: grid; gap: 6px; }
 .tl-card ul li::marker { color: var(--blue); }
 .early-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 12px; }
@@ -341,9 +345,11 @@ footer { text-align: center; font-size: 12px; color: var(--ink-3); padding: 26px
   .contact-photo { width: 180px; margin: 0 auto; }
   .contact-card .cta { justify-content: center; }
   .talks li { grid-template-columns: 1fr; gap: 2px; }
+  .tl-kpis { grid-template-columns: 1fr; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .reveal { opacity: 1; transform: none; transition: none; }
   .h-name, .pulse, .caret, .scroll-hint i, .portrait .scan, .portrait .chip, .portrait .orbit { animation: none; }
 }
+@media (max-height: 900px) { .scroll-hint { display: none; } }
